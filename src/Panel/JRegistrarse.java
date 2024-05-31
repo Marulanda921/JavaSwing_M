@@ -57,7 +57,7 @@ public class JRegistrarse extends JPanel {
 						contraseña = contrasena;
 						try {
 							PrintWriter writer = new PrintWriter(
-									new BufferedWriter(new FileWriter("usuarios.txt", true)));
+									new BufferedWriter(new FileWriter("Archivos\\usuarios.txt", true)));
 							writer.println(usuario + "," + contraseña);
 							writer.close();
 							messageError.setText("Usuario guardado correctamente.");

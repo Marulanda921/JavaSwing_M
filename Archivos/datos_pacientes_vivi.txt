@@ -1,0 +1,13 @@
+Nombre Dueño: 
+Dirección: 
+Teléfono: 
+Correo: 
+Nombre Mascota: 
+Especie: 
+Raza: 
+Edad: 
+Género: Hembra
+Antecedentes Médicos: 
+
+-----------------------------------------
+
