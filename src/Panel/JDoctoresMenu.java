@@ -12,6 +12,9 @@ import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
 import Principal.Inicio;
+import java.awt.Color;
+import java.awt.Font;
+import javax.swing.border.LineBorder;
 
 public class JDoctoresMenu extends JPanel {
 
@@ -22,8 +25,8 @@ public class JDoctoresMenu extends JPanel {
         this.nombreUsuario = nombreUsuario; // Asignar el nombre del usuario al campo
         setLayout(new BorderLayout());
 
-        JButton btnIngresarPaciente = new JButton("Ingresar Paciente");
-        btnIngresarPaciente.addActionListener(new ActionListener() {
+        JButton btnPacientes = new JButton("Pacientes");
+        btnPacientes.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 setVisible(false);
                 // Pasar el nombre del usuario como ID del doctor al constructor de JIngresarPacientes
@@ -35,8 +38,9 @@ public class JDoctoresMenu extends JPanel {
         });
 
         JPanel centerPanel = new JPanel();
+        centerPanel.setBorder(null);
         centerPanel.setLayout(new GridLayout(0, 1, 0, 10));
-        centerPanel.add(btnIngresarPaciente);
+        centerPanel.add(btnPacientes);
         add(centerPanel, BorderLayout.CENTER);
 
         JButton btnTratamientos = new JButton("Tratamientos");
@@ -104,13 +108,16 @@ public class JDoctoresMenu extends JPanel {
         add(rightPanel, BorderLayout.EAST);
 
         JPanel topPanel = new JPanel();
+        topPanel.setBorder(new LineBorder(Color.BLACK, 1, true));
+        topPanel.setBackground(Color.PINK);
         JLabel lblNewLabel_1 = new JLabel("Bienvenido Doctor(a) " + nombreUsuario);
+        lblNewLabel_1.setFont(new Font("Segoe Print", Font.PLAIN, 13));
         topPanel.add(lblNewLabel_1);
         add(topPanel, BorderLayout.NORTH);
 
         JPanel bottomPanel = new JPanel();
-        JLabel lblPRUEBA = new JLabel("MENU DE INICIO");
-        bottomPanel.add(lblPRUEBA);
+        bottomPanel.setBorder(new LineBorder(new Color(0, 0, 0)));
+        bottomPanel.setBackground(Color.PINK);
         add(bottomPanel, BorderLayout.SOUTH);
     }
 }

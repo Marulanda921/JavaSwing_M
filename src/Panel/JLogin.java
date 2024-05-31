@@ -39,6 +39,7 @@ public class JLogin extends JPanel {
 			Izquierda.add(panel);
 
 			JPanel Superior = new JPanel();
+			Superior.setBorder(new LineBorder(new Color(0, 0, 0)));
 			add(Superior, BorderLayout.NORTH);
 
 			JLabel lblTitulo = new JLabel("Veterinaria");
@@ -56,6 +57,7 @@ public class JLogin extends JPanel {
 			add(Inferior, BorderLayout.SOUTH);
 
 			JPanel Centro = new JPanel();
+			Centro.setBorder(null);
 			Centro.setLayout(new FlowLayout(FlowLayout.CENTER, 5, 5));
 			add(Centro, BorderLayout.CENTER);
 
