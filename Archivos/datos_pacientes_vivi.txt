@@ -1,27 +1,13 @@
-
-Nombre Dueño: maryhug
-Dirección: er3werwer
-Teléfono: er3werwer
-Correo: er3werwer
-Nombre Mascota: cora
-Especie: er3werwer
-Raza: er3werwe
-Edad: er3werwer
+Nombre Dueño: Viviana
+Dirección: Cra. 53 #13A Sur 51, Colinas del Sur, Medellín, Antioquia
+Teléfono: 3167832091
+Correo: vivianapedraza84@gmail.com
+Nombre Mascota: Princesa
+Especie: Perro
+Raza: Schnauzer
+Edad: 12 años
 Género: Hembra
-Antecedentes Médicos: er3werwer
-
------------------------------------------
-
-Nombre Dueño: viviana
-Dirección: wewree
-Teléfono: 789456123
-Correo: wewree
-Nombre Mascota: princesa
-Especie: wewree
-Raza: wewree
-Edad: 12
-Género: Hembra
-Antecedentes Médicos: wewree
+Antecedentes Médicos: 
 
 -----------------------------------------
 
