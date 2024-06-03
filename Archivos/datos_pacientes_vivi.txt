@@ -1,13 +1,27 @@
-Nombre Dueño: 
-Dirección: 
-Teléfono: 
-Correo: 
-Nombre Mascota: 
-Especie: 
-Raza: 
-Edad: 
+
+Nombre Dueño: maryhug
+Dirección: er3werwer
+Teléfono: er3werwer
+Correo: er3werwer
+Nombre Mascota: cora
+Especie: er3werwer
+Raza: er3werwe
+Edad: er3werwer
 Género: Hembra
-Antecedentes Médicos: 
+Antecedentes Médicos: er3werwer
+
+-----------------------------------------
+
+Nombre Dueño: viviana
+Dirección: wewree
+Teléfono: 789456123
+Correo: wewree
+Nombre Mascota: princesa
+Especie: wewree
+Raza: wewree
+Edad: 12
+Género: Hembra
+Antecedentes Médicos: wewree
 
 -----------------------------------------
 
