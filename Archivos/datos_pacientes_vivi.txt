@@ -1,13 +1,6 @@
-Nombre Dueño: Viviana
-Dirección: Cra. 53 #13A Sur 51, Colinas del Sur, Medellín, Antioquia
-Teléfono: 3167832091
-Correo: vivianapedraza84@gmail.com
-Nombre Mascota: Princesa
-Especie: Perro
-Raza: Schnauzer
-Edad: 12 años
-Género: Hembra
-Antecedentes Médicos: 
 
------------------------------------------
+
+
+
+
 
