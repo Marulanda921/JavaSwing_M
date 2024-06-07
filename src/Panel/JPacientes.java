@@ -280,39 +280,6 @@ public class JPacientes extends JPanel {
 		}
 	}
 
-//	private void buscarPaciente() {
-//		String nombreDueño = JOptionPane.showInputDialog("Ingrese el nombre del dueño:");
-//
-//		if (nombreDueño != null && !nombreDueño.isEmpty()) {
-//			StringBuilder resultados = new StringBuilder();
-//			boolean encontrado = false;
-//
-//			try (BufferedReader br = new BufferedReader(
-//					new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
-//				String linea;
-//				while ((linea = br.readLine()) != null) {
-//					if (linea.contains("Nombre Dueño: " + nombreDueño)) {
-//						resultados.append(linea).append("\n");
-//						for (int i = 0; i < 9; i++) {
-//							resultados.append(br.readLine()).append("\n");
-//						}
-//						resultados.append("-----------------------------------------\n\n");
-//						encontrado = true;
-//					}
-//				}
-//			} catch (IOException e) {
-//				e.printStackTrace();
-//				JOptionPane.showMessageDialog(null, "Error al leer los datos.");
-//			}
-//
-//			if (encontrado) {
-//				textAreaHistorial.setText(resultados.toString());
-//			} else {
-//				textAreaHistorial.setText("No se encontraron pacientes con el nombre del dueño proporcionado.");
-//			}
-//		}
-//	}
-
 	private void buscarPaciente() {
 		String nombreDueño = JOptionPane.showInputDialog("Ingrese el nombre del dueño:");
 
@@ -473,19 +440,6 @@ public class JPacientes extends JPanel {
 		}
 	}
 
-//	public void verHistoriales() {
-//		textAreaHistorial.setText("");
-//		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
-//			String linea;
-//			while ((linea = br.readLine()) != null) {
-//				textAreaHistorial.append(linea + "\n");
-//			}
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//			textAreaHistorial.setText("Error al leer los datos.");
-//		}
-//	}
-
 	public void verHistoriales() {
 		textAreaHistorial.setText("");
 		StringBuilder historialCompleto = new StringBuilder();
@@ -551,40 +505,6 @@ public class JPacientes extends JPanel {
 					"Paciente no encontrado", JOptionPane.INFORMATION_MESSAGE);
 		}
 	}
-
-//	private void guardarChequeoClinico() {
-//		if (pacienteChequeo == null || pacienteChequeo.isEmpty()) {
-//			JOptionPane.showMessageDialog(this,
-//					"No se ha seleccionado ningún paciente para agregar el chequeo clínico.", "Error",
-//					JOptionPane.ERROR_MESSAGE);
-//			return;
-//		}
-//
-//		String chequeoClinico = textFieldChequeoClinico.getText().trim();
-//		if (chequeoClinico.isEmpty()) {
-//			JOptionPane.showMessageDialog(this, "El chequeo clínico no puede estar vacío.", "Error",
-//					JOptionPane.ERROR_MESSAGE);
-//			return;
-//		}
-//
-//		LocalDateTime fechaHoraActual = LocalDateTime.now();
-//		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
-//		String fechaHoraChequeo = fechaHoraActual.format(formatter);
-//		String registroChequeo = pacienteChequeo.trim() + "\nChequeo Clínico: " + fechaHoraChequeo + " - "
-//				+ chequeoClinico + "\n-----------------------------------------\n\n";
-//
-//		try (FileWriter writer = new FileWriter("Archivos\\datos_pacientes_" + doctorID + ".txt", true)) {
-//			writer.write(registroChequeo);
-//			JOptionPane.showMessageDialog(this, "Chequeo clínico agregado con éxito.", "Éxito",
-//					JOptionPane.INFORMATION_MESSAGE);
-//			cardLayout.show(panelContenido, "HistorialPacientes");
-//			verHistoriales();
-//		} catch (IOException e) {
-//			e.printStackTrace();
-//			JOptionPane.showMessageDialog(this, "Error al agregar el chequeo clínico.", "Error",
-//					JOptionPane.ERROR_MESSAGE);
-//		}
-//	}
 
 	private void guardarChequeoClinico() {
 		if (pacienteChequeo == null || pacienteChequeo.isEmpty()) {

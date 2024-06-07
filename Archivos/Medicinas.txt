@@ -1,0 +1,130 @@
+Amoxicilina: Infecciones bacterianas.
+Doxiciclina: Infecciones bacterianas.
+Clindamicina: Infecciones bacterianas.
+Enrofloxacina: Infecciones bacterianas.
+Cefalexina: Infecciones cutáneas secundarias.
+Mupirocina: Infecciones cutáneas secundarias.
+Metronidazol: Infecciones bacterianas gastrointestinales.
+Sulfametoxazol-trimetoprim: Infecciones bacterianas gastrointestinales.
+Azitromicina: Infecciones bacterianas secundarias en gripe felina.
+Gentamicina: Infecciones bacterianas en oídos.
+Famciclovir: Infecciones virales.
+Interferón: Infecciones virales.
+Ribavirina: Infecciones virales.
+Oseltamivir: Infecciones virales.
+Paracetamol: Reducir la fiebre.
+Ibuprofeno: Reducir la fiebre.
+Fenbendazol: Infecciones parasitarias.
+Praziquantel: Infecciones parasitarias.
+Fipronil: Infestaciones de pulgas, ácaros o garrapatas.
+Selamectina: Infestaciones de pulgas, ácaros o garrapatas.
+Ivermectina: Infestaciones de ácaros del oído.
+Prednisona: Enfermedades inflamatorias.
+Carprofeno: Enfermedades inflamatorias, reducir inflamación y dolor articular.
+Meloxicam: Enfermedades inflamatorias, reducir inflamación y dolor articular.
+Fluticasona: Reducir inflamación de vías respiratorias.
+Dexametasona: Reducir inflamación y picor en oídos.
+Hidrocortisona: Reducir inflamación y picor en oídos.
+Teofilina: Facilitar la respiración.
+Albuterol: Facilitar la respiración.
+Difenhidramina: Reacciones alérgicas.
+Cetirizina: Reacciones alérgicas.
+Clorfeniramina: Reacciones alérgicas en gatos.
+Clotrimazol: Infecciones por hongos en oídos.
+Miconazol: Infecciones por hongos en oídos.
+Fenobarbital: Controlar convulsiones.
+Levetiracetam: Controlar convulsiones.
+Tramadol: Controlar el dolor severo.
+Gabapentina: Controlar el dolor severo.
+Buprenorfina: Controlar el dolor en gatos.
+Metoclopramida: Controlar los vómitos.
+Insulina glargina: Tratamiento de diabetes mellitus.
+Insulina NPH: Tratamiento de diabetes mellitus.
+Glipizida: Medicamento hipoglucemiante oral para diabetes.
+Suplementos de hierro: Restaurar niveles de hemoglobina.
+Suplementos de ácidos grasos: Para la salud de la piel y el pelaje.
+Suplementos de condroprotectores: Mejorar la salud articular (ej. glucosamina, condroitina).
+Soluciones limpiadoras otológicas: Limpiar oídos.
+Amoxicilina: Infecciones bacterianas.
+Doxiciclina: Infecciones bacterianas.
+Clindamicina: Infecciones bacterianas.
+Enrofloxacina: Infecciones bacterianas.
+Cefalexina: Infecciones cutáneas secundarias.
+Mupirocina: Infecciones cutáneas secundarias.
+Metronidazol: Infecciones bacterianas gastrointestinales.
+Sulfametoxazol-trimetoprim: Infecciones bacterianas gastrointestinales.
+Azitromicina: Infecciones bacterianas secundarias en gripe felina.
+Gentamicina: Infecciones bacterianas en oídos.
+Famciclovir: Infecciones virales.
+Ceftriaxona: Infecciones bacterianas graves.
+Cefoxitina: Infecciones bacterianas anaeróbicas.
+Ciprofloxacino: Infecciones bacterianas del tracto urinario.
+Oxitetraciclina: Infecciones bacterianas y enfermedades transmitidas por garrapatas.
+Interferón: Infecciones virales.
+Ribavirina: Infecciones virales.
+Oseltamivir: Infecciones virales.
+Acyclovir: Infecciones por herpesvirus.
+Valacyclovir: Infecciones por herpesvirus.
+Ganciclovir: Infecciones por citomegalovirus.
+Remdesivir: Infecciones por coronavirus.
+Paracetamol: Reducir la fiebre.
+Ibuprofeno: Reducir la fiebre.
+Aspirina: Reducir la fiebre y el dolor.
+Paracetamol: Reducir la fiebre.
+Ibuprofeno: Reducir la fiebre.
+Aspirina: Reducir la fiebre y el dolor.
+Prednisona: Enfermedades inflamatorias.
+Carprofeno: Enfermedades inflamatorias, reducir inflamación y dolor articular.
+Meloxicam: Enfermedades inflamatorias, reducir inflamación y dolor articular.
+Fluticasona: Reducir inflamación de vías respiratorias.
+Dexametasona: Reducir inflamación y picor en oídos.
+Hidrocortisona: Reducir inflamación y picor en oídos.
+Betametasona: Reducir inflamación y enfermedades autoinmunes.
+Piroxicam: Tratamiento de inflamaciones crónicas y ciertos tipos de cáncer.
+Teofilina: Facilitar la respiración.
+Albuterol: Facilitar la respiración.
+Terbutalina: Facilitar la respiración.
+Difenhidramina: Reacciones alérgicas.
+Cetirizina: Reacciones alérgicas.
+Clorfeniramina: Reacciones alérgicas en gatos.
+Loratadina: Reacciones alérgicas.
+Clotrimazol: Infecciones por hongos en oídos.
+Miconazol: Infecciones por hongos en oídos.
+Ketoconazol: Infecciones por hongos sistémicas.
+Itraconazol: Infecciones por hongos sistémicas.
+Fluconazol: Infecciones por hongos sistémicas.
+Fenobarbital: Controlar convulsiones.
+Levetiracetam: Controlar convulsiones.
+Diazepam: Controlar convulsiones y ansiedad.
+Zonisamida: Controlar convulsiones.
+Tramadol: Controlar el dolor severo.
+Gabapentina: Controlar el dolor severo.
+Buprenorfina: Controlar el dolor en gatos.
+Meloxicam: Controlar el dolor y la inflamación.
+Fentanilo: Controlar el dolor severo.
+Metadona: Controlar el dolor severo.
+Metoclopramida: Controlar los vómitos.
+Ondansetrón: Controlar los vómitos severos.
+Maropitant: Controlar los vómitos y las náuseas.
+Insulina glargina: Tratamiento de diabetes mellitus.
+Insulina NPH: Tratamiento de diabetes mellitus.
+Glipizida: Medicamento hipoglucemiante oral para diabetes.
+Suplementos de hierro: Restaurar niveles de hemoglobina.
+Suplementos de ácidos grasos: Para la salud de la piel y el pelaje.
+Suplementos de condroprotectores: Mejorar la salud articular (ej. glucosamina, condroitina).
+Soluciones limpiadoras otológicas: Limpiar oídos.
+Loperamida: Tratamiento de la diarrea.
+Sucralfato: Protección de la mucosa gástrica.
+Omeprazol: Reducción de la acidez gástrica.
+S-adenosilmetionina (SAMe): Protección del hígado.
+
+
+Medicina: 
+
+
+Medicina: 
+
+
+Medicina: asdasd
+asdasd
+
