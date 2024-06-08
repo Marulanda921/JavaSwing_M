@@ -71,8 +71,15 @@ public class PanelIngresoMedicina extends JPanel {
         String resultadoBusqueda = mostrarMedicina.buscarMedicinasPorNombre(nombreMedicina);
 
         System.out.println(resultadoBusqueda);
-    }
 
+        if (!resultadoBusqueda.isEmpty()) {
+            CardLayout cardLayout = (CardLayout) panelCards.getLayout();
+            cardLayout.show(panelCards, RESULTADOS);
+            textAreaResultados.setText(resultadoBusqueda);
+        } else {
+            JOptionPane.showMessageDialog(this, "No se encontraron resultados", "Sin resultados", JOptionPane.INFORMATION_MESSAGE);
+        }
+    }
 
     private void volverAlFormulario() {
         CardLayout cardLayout = (CardLayout) panelCards.getLayout();

@@ -117,14 +117,80 @@ Loperamida: Tratamiento de la diarrea.
 Sucralfato: Protección de la mucosa gástrica.
 Omeprazol: Reducción de la acidez gástrica.
 S-adenosilmetionina (SAMe): Protección del hígado.
+Ceftriaxona: Infecciones bacterianas graves.
+Cefoxitina: Infecciones bacterianas anaeróbicas.
+Ciprofloxacino: Infecciones bacterianas del tracto urinario.
+Oxitetraciclina: Infecciones bacterianas y enfermedades transmitidas por garrapatas.
+Trilostano: Tratamiento del síndrome de Cushing.
+Mitotano: Tratamiento del síndrome de Cushing.
+Pergolida: Tratamiento de la enfermedad de Cushing en caballos.
+Leuprolide: Tratamiento del cáncer de próstata.
+Deslorelina: Tratamiento del cáncer de próstata.
+Mirtazapina: Estimulante del apetito.
+Ciproheptadina: Estimulante del apetito.
+Famotidina: Reducción de la acidez gástrica.
+Ranitidina: Reducción de la acidez gástrica.
+Pantoprazol: Reducción de la acidez gástrica.
+Budesonida: Tratamiento del asma.
+Cyproheptadina: Tratamiento del asma.
+Levotiroxina: Tratamiento del hipotiroidismo.
+Metimazol: Tratamiento del hipertiroidismo.
+Propranolol: Tratamiento de la hipertensión.
+Amlodipina: Tratamiento de la hipertensión.
+Enalapril: Tratamiento de la insuficiencia cardíaca.
+Benazepril: Tratamiento de la insuficiencia cardíaca.
+Furosemida: Tratamiento de la insuficiencia cardíaca.
+Spironolactona: Tratamiento de la insuficiencia cardíaca.
+Pimobendan: Tratamiento de la insuficiencia cardíaca.
+Digoxina: Tratamiento de la insuficiencia cardíaca.
+Amiodarona: Tratamiento de arritmias cardíacas.
+Sotalol: Tratamiento de arritmias cardíacas.
+Mexiletina: Tratamiento de arritmias cardíacas.
+Atenolol: Tratamiento de arritmias cardíacas.
+Clomipramina: Tratamiento de trastornos de ansiedad.
+Fluoxetina: Tratamiento de trastornos de ansiedad.
+Trazodona: Tratamiento de trastornos de ansiedad.
+Acepromazina: Sedante.
+Dexmedetomidina: Sedante.
+Xilazina: Sedante.
+Medetomidina: Sedante.
+Propofol: Anestésico.
+Ketamina: Anestésico.
+Isoflurano: Anestésico.
+Sevoflurano: Anestésico.
+Gabapentina: Tratamiento del dolor neuropático.
+Clorambucilo: Tratamiento de linfoma y leucemia.
+Ciclofosfamida: Tratamiento de cáncer.
+Vincristina: Tratamiento de cáncer.
+Doxorubicina: Tratamiento de cáncer.
+Prednisolona: Tratamiento de enfermedades inflamatorias y autoinmunes.
+Lactulosa: Tratamiento de la constipación.
+Mannitol: Diurético osmótico para tratar edema cerebral.
+Acetazolamida: Tratamiento de glaucoma.
+Timolol: Tratamiento de glaucoma.
+Dorzolamida: Tratamiento de glaucoma.
+Methocarbamol: Relajante muscular.
+Ticarcilina: Tratamiento de infecciones bacterianas graves.
+Cloranfenicol: Tratamiento de infecciones bacterianas graves.
+Dapsona: Tratamiento de lepra y dermatitis herpetiforme.
+Terbinafina: Tratamiento de infecciones por hongos.
+Griseofulvina: Tratamiento de infecciones por hongos de la piel, pelo y uñas.
+Albendazol: Tratamiento de infecciones parasitarias.
+Milbemicina oxima: Prevención de la dirofilariasis.
+Febantel: Tratamiento de infecciones parasitarias.
+Levamisol: Tratamiento de infecciones parasitarias.
+Amprolio: Tratamiento de coccidiosis.
+Sulfadiazina: Tratamiento de infecciones bacterianas y protozoarias.
+Trimipramina: Tratamiento de depresión y ansiedad.
+Imipramina: Tratamiento de depresión y enuresis.
+Buspirona: Tratamiento de ansiedad.
+Moclobemida: Tratamiento de depresión.
+Selegilina: Tratamiento de enfermedad de Cushing y demencia canina.
+Atropina: Tratamiento de bradicardia y como antídoto en intoxicaciones.
+N-acetilcisteína: Antídoto para intoxicación por paracetamol y protector hepático.
+Silimarina: Protector hepático.
+Colchicina: Tratamiento de gota.
+Allopurinol: Tratamiento de gota.
+Dantroleno: Tratamiento de hipertermia maligna.
 
-
-Medicina: 
-
-
-Medicina: 
-
-
-Medicina: asdasd
-asdasd
-
+pelo:pelo

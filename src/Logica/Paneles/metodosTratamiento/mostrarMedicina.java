@@ -37,10 +37,6 @@ public class mostrarMedicina {
                     // Agregar la medicina encontrada a los resultados
                     resultado.append(linea).append("\n");
                     // Leer y agregar la descripción completa de la medicina
-                    while ((linea = br.readLine()) != null && !linea.trim().isEmpty()) {
-                        resultado.append(linea).append("\n");
-                    }
-                    // Se encontró la medicina, establecer el indicador encontrado y salir del bucle
                     encontrado = true;
                     break;
                 }
@@ -67,8 +63,7 @@ public class mostrarMedicina {
 
     public static String agregarMedicina(String nombre, String descripcion) {
         try (FileWriter writer = new FileWriter("Archivos\\Medicinas.txt", true)) {
-            writer.write("Medicina: " + nombre + "\n");
-            writer.write(descripcion + "\n\n");
+            writer.write("\n"+nombre+":"+descripcion +"\n");
         } catch (IOException e) {
             e.printStackTrace();
             return "Error al agregar la medicina.";
