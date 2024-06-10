@@ -17,3 +17,23 @@ Antecedentes Médicos: fiebre
 
 -----------------------------------------
 
+Nombre Dueño: lol
+Dirección: asdas
+Teléfono: dasd
+Correo Electrónico: asd
+Nombre Paciente: asdasdas
+Especie: dasd
+Raza: asdas
+Edad: das
+Sexo: dasd
+Color: asd
+Vacunación: Sí
+Vacunación (Lista de vacunas con fechas): asdasd
+Desparasitaciones (Fechas y productos usados): asd
+Enfermedades Previas: asdasdas
+Cirugías Anteriores: das
+Alergias (alimentos, medicamentos, etc.): dasd
+Medicamentos Actuales: asdasd
+-----------------------------------------
+
+

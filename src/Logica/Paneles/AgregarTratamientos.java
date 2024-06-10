@@ -18,26 +18,26 @@ public class AgregarTratamientos extends JPanel {
 
         JPanel formPanel = new JPanel(new GridLayout(4, 2, 10, 10));
 
-        // Raza
+
         JLabel lblRaza = new JLabel("Raza:");
         formPanel.add(lblRaza);
         textFieldRaza = new JTextField();
         formPanel.add(textFieldRaza);
 
-        // Síntoma Principal
+
         JLabel lblSintomaPrincipal = new JLabel("Síntoma Principal:");
         formPanel.add(lblSintomaPrincipal);
         textFieldSintomaPrincipal = new JTextField();
         formPanel.add(textFieldSintomaPrincipal);
 
-        // Síntomas Secundarios
+
         JLabel lblSintomasSecundarios = new JLabel("Síntomas Secundarios:");
         formPanel.add(lblSintomasSecundarios);
         textAreaSintomasSecundarios = new JTextArea(3, 20);
         JScrollPane scrollPaneSintomasSecundarios = new JScrollPane(textAreaSintomasSecundarios);
         formPanel.add(scrollPaneSintomasSecundarios);
 
-        // Tratamiento
+
         JLabel lblTratamiento = new JLabel("Tratamientos:");
         formPanel.add(lblTratamiento);
         textAreaTratamiento = new JTextArea(3, 20);
@@ -46,11 +46,11 @@ public class AgregarTratamientos extends JPanel {
 
         add(formPanel, BorderLayout.CENTER);
 
-        // Crear el botón de modificar
+
         JButton modifyButton = new JButton("Agregar");
         add(modifyButton, BorderLayout.SOUTH);
 
-        // Crear la instancia de MetodoAgregar y agregar el ActionListener
+
         MetodoAgregar metodoAgregar = new MetodoAgregar(this);
         modifyButton.addActionListener(e -> metodoAgregar.agregarTratamiento());
     }

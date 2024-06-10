@@ -21,7 +21,7 @@ public class PanelIngresoTratamiento extends JPanel {
         panelCards = new JPanel(new CardLayout());
         add(panelCards, BorderLayout.CENTER);
 
-        // Panel para el formulario
+
         JPanel panelFormulario = new JPanel(new BorderLayout());
         panelCards.add(panelFormulario, FORMULARIO);
 
@@ -56,12 +56,12 @@ public class PanelIngresoTratamiento extends JPanel {
         JScrollPane scrollPaneSintomas = new JScrollPane(textAreaSintomas);
         Centro.add(scrollPaneSintomas);
 
-        // Botón de guardar
+
         JButton btnGuardar = new JButton("Guardar");
         btnGuardar.addActionListener(e -> guardarTratamiento());
         panelFormulario.add(btnGuardar, BorderLayout.SOUTH);
 
-        // Panel para los resultados
+
         JPanel panelResultados = new JPanel(new BorderLayout());
         panelCards.add(panelResultados, RESULTADOS);
 
@@ -73,18 +73,18 @@ public class PanelIngresoTratamiento extends JPanel {
         JScrollPane scrollPaneResultados = new JScrollPane(textAreaResultados);
         panelResultados.add(scrollPaneResultados, BorderLayout.CENTER);
 
-        // Botón de buscar
+
         JButton btnBuscar = new JButton("Buscar");
         btnBuscar.addActionListener(e -> buscarTratamientos());
         panelFormulario.add(btnBuscar, BorderLayout.SOUTH);
-        // Botón de volver
+
         JButton btnVolver = new JButton("Volver");
         btnVolver.addActionListener(e -> volverAlFormulario());
         panelResultados.add(btnVolver, BorderLayout.SOUTH);
     }
 
     private void guardarTratamiento() {
-        // Implementación de la lógica de guardado
+
     }
 
     private void buscarTratamientos() {

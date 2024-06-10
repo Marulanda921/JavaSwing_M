@@ -24,6 +24,7 @@ public class JLogin extends JPanel {
 	private JTextField textField_1;
 	private JPasswordField passwordField_1;
 	private JLabel lblMensajeError;
+	private static String usuarioLogueado;
 
 	public JLogin() {
 
@@ -121,6 +122,7 @@ public class JLogin extends JPanel {
 			                    if (usuarioGuardado.equals(usuarioIngresado)
 			                            && contraseñaGuardada.equals(contrasenaIngresada)) {
 			                        usuarioValido = true;
+			                        usuarioLogueado = usuarioIngresado; // Almacenar el usuario que ha iniciado sesión
 			                        break;
 			                    }
 			                }
@@ -163,5 +165,9 @@ public class JLogin extends JPanel {
 			Login_1.add(lblMensajeError);
 		
 	}
+	 // Método para obtener el usuario que ha iniciado sesión
+   public static String getUsuarioLogueado() {
+        return usuarioLogueado;
+    }
 
 }

@@ -14,13 +14,13 @@ public class EliminarTratamientos extends JPanel {
 
         JPanel formPanel = new JPanel(new GridLayout(2, 2, 10, 10));
 
-        // Raza
+
         JLabel lblRaza = new JLabel("Raza:");
         formPanel.add(lblRaza);
         textFieldRaza = new JTextField();
         formPanel.add(textFieldRaza);
 
-        // Síntoma Principal
+
         JLabel lblSintomaPrincipal = new JLabel("Síntoma Principal:");
         formPanel.add(lblSintomaPrincipal);
         textFieldSintomaPrincipal = new JTextField();
@@ -28,11 +28,11 @@ public class EliminarTratamientos extends JPanel {
 
         add(formPanel, BorderLayout.CENTER);
 
-        // Crear el botón de eliminar
+
         JButton deleteButton = new JButton("Eliminar");
         add(deleteButton, BorderLayout.SOUTH);
 
-        // Agregar el ActionListener para eliminar el tratamiento
+
         deleteButton.addActionListener(e -> eliminarTratamiento());
     }
 
@@ -42,7 +42,7 @@ public class EliminarTratamientos extends JPanel {
 
         String resultado = mostrarTratamientos.eliminarTratamiento(raza, sintomaPrincipal);
 
-        // Mostrar el resultado en un cuadro de diálogo
+
         JOptionPane.showMessageDialog(this, resultado);
     }
 }

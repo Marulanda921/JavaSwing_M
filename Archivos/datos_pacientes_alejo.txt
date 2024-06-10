@@ -1,0 +1,39 @@
+Nombre Dueño: alejandro
+Dirección: a
+Teléfono: a
+Correo: a
+Nombre Mascota: a
+Especie: a
+Raza: a
+Edad: a
+Género: Macho
+Antecedentes Médicos: asdasdasd
+
+-----------------------------------------
+
+Nombre Dueño: fer
+Dirección: asdas
+Teléfono: asdas
+Correo: dasd
+Nombre Mascota: sdasd
+Especie: asdas
+Raza: dasd
+Edad: asdasd
+Género: Macho
+Antecedentes Médicos: asdasdasd
+
+-----------------------------------------
+
+Nombre Dueño: all
+Dirección: a
+Teléfono: a
+Correo: asd
+Nombre Mascota: asdas
+Especie: dasd
+Raza: d
+Edad: d
+Género: Macho
+Antecedentes Médicos: asdasd
+
+-----------------------------------------
+

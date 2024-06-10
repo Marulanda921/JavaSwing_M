@@ -7,7 +7,7 @@ import Logica.Paneles.metodosTratamiento.mostrarTratamientos;
 
 public class PanelListarTratamientos extends JPanel {
 
-    private static final long serialVersionUID = 1L; // Agregado para controlar la serialización
+    private static final long serialVersionUID = 1L; 
     private JTextArea textAreaHistorial;
 
     public PanelListarTratamientos() {

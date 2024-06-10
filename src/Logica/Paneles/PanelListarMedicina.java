@@ -6,7 +6,7 @@ import Logica.Paneles.metodosTratamiento.mostrarMedicina;
 
 public class PanelListarMedicina extends JPanel {
 
-    private static final long serialVersionUID = 1L; // Agregado para controlar la serialización
+    private static final long serialVersionUID = 1L;
     private JTextArea textAreaHistorial;
 
     public PanelListarMedicina() {

@@ -17,10 +17,10 @@ public class MetodoAgregar {
         String sintomasSecundarios = agregarTratamientos.getSintomasSecundarios();
         String tratamiento = agregarTratamientos.getTratamiento();
 
-        // Llamar al método para agregar el tratamiento en el archivo
+
         String resultado = mostrarTratamientos.agregarTratamiento(raza, sintomaPrincipal, sintomasSecundarios, tratamiento);
         
-        // Mostrar resultado (puede ser en la consola o en un cuadro de diálogo)
+
         System.out.println(resultado);
         JOptionPane.showMessageDialog(agregarTratamientos, resultado);
     }

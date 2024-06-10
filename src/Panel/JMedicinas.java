@@ -25,20 +25,18 @@ public class JMedicinas extends JPanel {
 
 	        panelContenedor = new JPanel(new CardLayout());
 
-	        // Crear instancias de los paneles necesarios
+
 	        panelIngresoMedicina = new PanelIngresoMedicina();
 	        panelListarMedicina = new PanelListarMedicina();
 	        agregarMedicina = new AgregarMedicina();
 
-	        // Agregar los paneles al contenedor
+
 	        panelContenedor.add(panelIngresoMedicina, "INGRESO");
 	        panelContenedor.add(panelListarMedicina, "LISTAR");
 	        panelContenedor.add(agregarMedicina, "AGREGAR");
 
-	        // Agregar el contenedor al panel principal
 	        add(panelContenedor, BorderLayout.CENTER);
 
-	        // Botones y acciones
 	        JPanel panelDerecha = new JPanel();
 	        add(panelDerecha, BorderLayout.EAST);
 	        panelDerecha.setLayout(new GridLayout(0, 1, 0, 0));
@@ -115,7 +113,7 @@ public class JMedicinas extends JPanel {
 	    }
 
 	    private void mostrarPanelListarMedicinas() {
-	        panelListarMedicina.actualizarListadoMedicinas(); // Actualizar listado de medicinas
+	        panelListarMedicina.actualizarListadoMedicinas();
 	        CardLayout cardLayout = (CardLayout) panelContenedor.getLayout();
 	        cardLayout.show(panelContenedor, "LISTAR");
 	    }

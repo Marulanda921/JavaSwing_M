@@ -1,20 +1,23 @@
 package Logica.Paneles;
-
 import javax.swing.*;
-import java.awt.*;
-import Logica.Paneles.metodosTratamiento.mostrarMedicina;
 
-public class PanelIngresoMedicina extends JPanel {
+import Logica.Paneles.metodosTratamiento.mostrarCitas;
+
+import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class PanelIngresoCitas extends JPanel {
 
     private static final long serialVersionUID = 1L;
-    private JTextField textFieldNombreMedicina;
+    private JTextField textFieldNombre;
     private JTextArea textAreaResultados;
     private JPanel panelCards;
     private static final String FORMULARIO = "Formulario";
     private static final String RESULTADOS = "Resultados";
-    private JPanel panelResultados; 
+    private JPanel panelResultados;
 
-    public PanelIngresoMedicina() {
+    public PanelIngresoCitas() {
         setLayout(new BorderLayout());
 
         panelCards = new JPanel(new CardLayout());
@@ -27,27 +30,31 @@ public class PanelIngresoMedicina extends JPanel {
         JPanel Superior = new JPanel();
         panelFormulario.add(Superior, BorderLayout.NORTH);
 
-        JLabel lblTituloPrincipal = new JLabel("Medicinas");
+        JLabel lblTituloPrincipal = new JLabel("Buscar Citas");
         lblTituloPrincipal.setFont(new Font("Segoe Print", Font.PLAIN, 15));
         Superior.add(lblTituloPrincipal);
 
         JPanel Centro = new JPanel(new GridLayout(1, 2, 5, 5));
         panelFormulario.add(Centro, BorderLayout.CENTER);
 
-        JLabel lblNombreMedicina = new JLabel("Nombre de la medicina:");
-        Centro.add(lblNombreMedicina);
+        JLabel lblNombre = new JLabel("Nombre:");
+        Centro.add(lblNombre);
 
-        textFieldNombreMedicina = new JTextField();
-        Centro.add(textFieldNombreMedicina);
-        textFieldNombreMedicina.setColumns(10);
+        textFieldNombre = new JTextField();
+        Centro.add(textFieldNombre);
+        textFieldNombre.setColumns(10);
 
-        // Botón de buscar medicinas
-        JButton btnBuscar = new JButton("Buscar Medicinas");
-        btnBuscar.addActionListener(e -> buscarMedicinas());
+
+        JButton btnBuscar = new JButton("Buscar Citas");
+        btnBuscar.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                buscarCitasPorNombre();
+            }
+        });
         panelFormulario.add(btnBuscar, BorderLayout.SOUTH);
 
-        // Panel para los resultados
-        panelResultados = new JPanel(new BorderLayout()); // Cambiado
+
+        panelResultados = new JPanel(new BorderLayout());
         panelCards.add(panelResultados, RESULTADOS);
 
         JLabel lblResultados = new JLabel("Resultados de la búsqueda:");
@@ -58,19 +65,22 @@ public class PanelIngresoMedicina extends JPanel {
         JScrollPane scrollPaneResultados = new JScrollPane(textAreaResultados);
         panelResultados.add(scrollPaneResultados, BorderLayout.CENTER);
 
-        // Botón de volver
+
         JButton btnVolver = new JButton("Volver");
-        btnVolver.addActionListener(e -> volverAlFormulario());
-        panelResultados.add(btnVolver, BorderLayout.SOUTH); 
+        btnVolver.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                volverAlFormulario();
+            }
+        });
+        panelResultados.add(btnVolver, BorderLayout.SOUTH);
     }
 
-    private void buscarMedicinas() {
-        String nombreMedicina = textFieldNombreMedicina.getText(); 
-        
-        // Llamar al método para buscar la medicina por nombre
-        String resultadoBusqueda = mostrarMedicina.buscarMedicinasPorNombre(nombreMedicina);
+    private void buscarCitasPorNombre() {
+        String nombre = textFieldNombre.getText();
+        System.out.println(nombre);
 
-        System.out.println(resultadoBusqueda);
+
+        String resultadoBusqueda = mostrarCitas.buscarCitasPorNombre(nombre);
 
         if (!resultadoBusqueda.isEmpty()) {
             CardLayout cardLayout = (CardLayout) panelCards.getLayout();
@@ -86,6 +96,3 @@ public class PanelIngresoMedicina extends JPanel {
         cardLayout.show(panelCards, FORMULARIO);
     }
 }
-
-
-

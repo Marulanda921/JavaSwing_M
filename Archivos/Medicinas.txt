@@ -194,3 +194,5 @@ Allopurinol: Tratamiento de gota.
 Dantroleno: Tratamiento de hipertermia maligna.
 
 pelo:pelo
+
+rata:tata
