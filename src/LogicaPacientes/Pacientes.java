@@ -10,15 +10,20 @@ import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
 
+import Panel.JLogin;
+
 public class Pacientes {
-	private String doctorID;
+	//private String doctorID;
 
 	public Pacientes(String doctorID) {
-		this.doctorID = doctorID;
+		//this.doctorID = doctorID;
 	}
+	
+	
 
 	public void guardarDatos(String nuevoRegistro) {
-		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + doctorID + ".txt", true)) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
+		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt", true)) {
 			fw.write(nuevoRegistro + "\n");
 			JOptionPane.showMessageDialog(null, "Datos guardados correctamente.");
 		} catch (IOException e) {
@@ -27,8 +32,9 @@ public class Pacientes {
 	}
 
 	public String buscarPaciente(String nombreDueño) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		StringBuilder resultados = new StringBuilder();
-		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt"))) {
 			String linea;
 			boolean encontrado = false;
 			while ((linea = br.readLine()) != null) {
@@ -52,8 +58,9 @@ public class Pacientes {
 	}
 
 	public String modificarPaciente(String nombreDueño) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		StringBuilder datosPaciente = new StringBuilder();
-		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt"))) {
 			String linea;
 			boolean encontrado = false;
 			while ((linea = br.readLine()) != null) {
@@ -78,11 +85,12 @@ public class Pacientes {
 	}
 
 	public void eliminarRegistroOriginal() {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		List<String> lineas = leerArchivo();
 		if (lineas == null)
 			return;
 
-		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + doctorID + ".txt")) {
+		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt")) {
 			for (String linea : lineas) {
 				fw.write(linea + "\n");
 			}
@@ -92,6 +100,7 @@ public class Pacientes {
 	}
 
 	public void eliminarPaciente(String nombreDueño) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		List<String> lineas = leerArchivo();
 		if (lineas == null)
 			return;
@@ -109,7 +118,7 @@ public class Pacientes {
 			}
 		}
 		if (encontrado) {
-			try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + doctorID + ".txt")) {
+			try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt")) {
 				for (String linea : lineas) {
 					fw.write(linea + "\n");
 				}
@@ -123,8 +132,9 @@ public class Pacientes {
 	}
 
 	public String verHistoriales() {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		StringBuilder historialCompleto = new StringBuilder();
-		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt"))) {
 			String linea;
 			while ((linea = br.readLine()) != null) {
 				if (linea.startsWith("Nombre Dueño: ")) {
@@ -143,8 +153,9 @@ public class Pacientes {
 	}
 
 	public String agregarChequeoClinico(String nombreDueño) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		try (BufferedReader reader = new BufferedReader(
-				new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
+				new FileReader("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt"))) {
 			String linea;
 			StringBuilder pacienteBuilder = new StringBuilder();
 			boolean pacienteEncontrado = false;
@@ -171,11 +182,12 @@ public class Pacientes {
 	}
 
 	public void guardarChequeoClinico(String datosPaciente, String chequeoClinico, String nombreDueño) {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		LocalDateTime ahora = LocalDateTime.now();
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm:ss");
 		String fechaHora = ahora.format(formatter);
 
-		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + doctorID + ".txt", true)) {
+		try (FileWriter fw = new FileWriter("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt", true)) {
 			fw.write("Último Chequeo de " + nombreDueño + " :" + fechaHora + "\n" + chequeoClinico + "\n");
 			JOptionPane.showMessageDialog(null, "Chequeo clínico guardado correctamente.");
 		} catch (IOException e) {
@@ -184,8 +196,9 @@ public class Pacientes {
 	}
 
 	private List<String> leerArchivo() {
+		String usuarioLogueado1 = JLogin.getUsuarioLogueado();
 		List<String> lineas = new ArrayList<>();
-		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + doctorID + ".txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("Archivos\\datos_pacientes_" + usuarioLogueado1 + ".txt"))) {
 			String linea;
 			while ((linea = br.readLine()) != null) {
 				lineas.add(linea);
